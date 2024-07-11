@@ -58,7 +58,7 @@ Couldn't we just use the command execution function of the cribl source to rip a
 
 ![image](https://github.com/0x00m/cribl_reverse_shells/assets/175245528/6bfd56b2-d997-4d6e-9d35-16a1b0346253)
 
-With our http server up, script in place, listener open, and deployment ready to go, we press button:
+With our http server up, script in place, listener open, and deployment ready to go, we press the commit and deploy button:
 
 You can verify and hunt down your specific changes to not push anyone elses stuff and to maintain your "stealth" if moving silently:
 
